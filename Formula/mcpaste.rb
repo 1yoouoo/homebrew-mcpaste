@@ -1,27 +1,27 @@
 class Mcpaste < Formula
   desc "Clipboard bridge between macOS and remote AI coding agents (MCP connector)"
   homepage "https://github.com/1yoouoo/mcpaste"
-  version "0.1.1"
+  version "0.1.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/1yoouoo/mcpaste/releases/download/v0.1.1/mcpaste-darwin-arm64"
-      sha256 "378ca2eb462b350e24dee987c643dd514b0fb1cb3ba67c0b9178cff755780295"
+      url "https://github.com/1yoouoo/mcpaste/releases/download/v0.1.3/mcpaste-darwin-arm64"
+      sha256 "d5a3336d1c3b0a555410b61d54f9a900cd64a38e08a075fdf292b134e6647835"
     end
     on_intel do
-      url "https://github.com/1yoouoo/mcpaste/releases/download/v0.1.1/mcpaste-darwin-amd64"
-      sha256 "1c6fd03ac412f50385f141046277aefe7c21f995ee5c47209a882054678a29c1"
+      url "https://github.com/1yoouoo/mcpaste/releases/download/v0.1.3/mcpaste-darwin-amd64"
+      sha256 "51fadb91e604f146cae178e2ad196d176b66fd3f440bdd01a38ee4a2e7e97920"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/1yoouoo/mcpaste/releases/download/v0.1.1/mcpaste-arm64"
-      sha256 "ecbe010c855d09adde8016e729826a31ec1a631edf2f8c268e4c5df0d92f5739"
+      url "https://github.com/1yoouoo/mcpaste/releases/download/v0.1.3/mcpaste-arm64"
+      sha256 "268d853d4f1ccf8d3c5ba7e0f9e5c1c677245e5ed89aeefd68a318098b20ff13"
     end
     on_intel do
-      url "https://github.com/1yoouoo/mcpaste/releases/download/v0.1.1/mcpaste-amd64"
-      sha256 "90c5ad6bfc1e86e1af4d15a6a062ac4076c14dd754f5f9c084bed032d0aa6296"
+      url "https://github.com/1yoouoo/mcpaste/releases/download/v0.1.3/mcpaste-amd64"
+      sha256 "78f874debb550604ed1da88e1b0670a47a049762c54c9a0c149bde0c29fda522"
     end
   end
 
